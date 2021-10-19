@@ -1,0 +1,41 @@
+@mixin styleRemoval {
+  box-shadow: none;
+  outline: none;
+  background-color:transparent;
+}
+@mixin defaultText {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:$text;
+}
+@mixin buttonStyle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 18px;
+  border-radius: $size1;
+  color:#F0F2F2;
+  border:1px solid $accent;
+  font-weight: bold;
+  &:hover {
+    cursor:pointer;
+    background-color: lighten($background, 6%);
+    transition: all 0.65s ease;
+  }
+}
+@mixin fieldsetStyle {
+  border:1px solid $accent;
+  border-radius:$size1;
+  padding:30px 40px;
+  max-width:500px;
+  margin:0 auto;
+  width:100%;
+  display: flex;
+}
+@mixin storeCart {
+  max-width:500px;
+  padding:30px;
+  margin:0 auto;
+  align-items: center;
+}
