@@ -138,7 +138,6 @@ export default {
             // display:initial;
             width:auto;
             max-width:300px;
-            padding:0;
             text-align:center;
             margin: 0 auto;
           }

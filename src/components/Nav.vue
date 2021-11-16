@@ -43,7 +43,7 @@
         text-decoration: none;
         padding:7px 30px;
         border-radius: $size1;
-        &:active, &:focus {
+        &:active, &:focus, .router-link-active.router-link-exact-active {
           background-color:$accent;
           color:#F0F2F2;
           // border-radius:$size1;

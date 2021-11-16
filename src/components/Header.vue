@@ -20,7 +20,10 @@
   @import "../scss/mixins.scss";
   #header {
     // height:60px;
+    max-width:300px;
     margin-top:30px;
+    margin-left:auto;
+    margin-right:auto;
     h1 {
       @include defaultText();
       color: #F0F2F2;

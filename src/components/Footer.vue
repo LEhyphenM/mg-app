@@ -31,7 +31,8 @@ export default {
   // X-Small devices (portrait phones, less than 576px)
   @media (max-width: 575.98px) {
     #footer h6 {
-      max-width:100%;
+      width:100%;
+      max-width:300px;
       // padding:32px 0;
     }
   }

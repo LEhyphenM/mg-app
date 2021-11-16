@@ -191,11 +191,13 @@ export default {
         max-width:250px;
         padding:0 30px 15px;
         .items {
-          padding:15px 0;
+          // padding:15px 0;
+          padding:8px 0 16px;
           max-width:250px;
           h3 {
             max-width:300px;
-            margin: 8px auto 16px;
+            // margin: 8px auto 16px;
+            margin:8px auto;
           }
           img {
             max-width:250px;
