@@ -7,18 +7,21 @@
     <router-view/>
     <!-- <Home /> -->
   </div>
+  <Disclaimer />
   <Footer />
 </template>
 
 <script>
 import Header from "./components/Header.vue";
 import Nav from "./components/Nav.vue";
+import Disclaimer from "./components/Disclaimer.vue";
 import Footer from './components/Footer.vue';
 export default {
   name: "App",
   components: {
     Header,
     Nav,
+    Disclaimer,
     Footer,
   },
   views: {
@@ -74,9 +77,10 @@ export default {
   // X-Small devices (portrait phones, less than 576px)
   @media (max-width: 575.98px) {
     body #app {
-      max-width:400px;
+      // max-width:400px;
+      max-width:100%;
       fieldset {
-        max-width:300px;
+        max-width:80%;
         padding:15px 0;
       }
     }

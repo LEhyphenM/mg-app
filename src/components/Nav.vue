@@ -38,16 +38,21 @@
       height:36px;
       width:30%;
       a {
-        color:#F0F2F2;
+        // color:#F0F2F2;
+        color:$accent;
         text-decoration: none;
         padding:7px 30px;
         border-radius: $size1;
         &:active, &:focus {
           background-color:$accent;
+          color:#F0F2F2;
           // border-radius:$size1;
           // padding:7px 30px;
           transition: all 0.08s ease;
         }
+        // &:hover {
+        //   color:#F0F2F2;
+        // }
         // &.router-link-exact-active,
         // &:active {
         // }

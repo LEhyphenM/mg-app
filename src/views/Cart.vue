@@ -80,13 +80,14 @@ export default {
         button {
           @include styleRemoval();
           @include buttonStyle();
+          background-color:$accent;
           width:45%;
           height:$size6;
           margin: 18px auto 0;
           display:flex;
           &:hover {
             cursor:pointer;
-            background-color: lighten($background, 6%);
+            background-color: lighten($accent, 8%);
             transition: all 0.65s ease;
           }
         }

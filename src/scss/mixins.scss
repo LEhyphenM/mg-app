@@ -1,7 +1,7 @@
 @mixin styleRemoval {
   box-shadow: none;
   outline: none;
-  background-color:transparent;
+  background-color:$white;
 }
 @mixin defaultText {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -10,6 +10,7 @@
   color:$text;
 }
 @mixin buttonStyle {
+  // background-color:$accent;
   display: inline-flex;
   align-items: center;
   justify-content: space-evenly;
@@ -20,16 +21,19 @@
   font-weight: bold;
   &:hover {
     cursor:pointer;
-    background-color: lighten($background, 6%);
+    background-color: lighten($background, 11%);
+    // background-color: lighten(#F0F2F2, 6%);
     transition: all 0.65s ease;
+    // color:#F0F2F2;
   }
 }
 @mixin fieldsetStyle {
+  background-color:$white;
   border:1px solid $accent;
   border-radius:$size1;
   padding:30px 40px;
   max-width:500px;
-  margin:0 auto;
+  margin:0 auto 15px;
   width:100%;
   display: flex;
 }

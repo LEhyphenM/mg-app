@@ -23,7 +23,7 @@ export default {
     font-weight:400;
     letter-spacing:2.25px;
     text-transform:uppercase;
-    padding:16px 0 32px;
+    padding:32px 0;
     text-align:center;
     margin:0 auto;
     width: 100%;
@@ -31,7 +31,8 @@ export default {
   // X-Small devices (portrait phones, less than 576px)
   @media (max-width: 575.98px) {
     #footer h6 {
-      max-width:300px;
+      max-width:100%;
+      // padding:32px 0;
     }
   }
 </style>
